@@ -1,16 +1,91 @@
-.title_fazemos {
-    position: absolute;
-    width: 376px;
-    height: 70px;
-    left: 668px;
-    top: 1004px;
+.body_projeto h1 {
+  position: absolute;
+  width: 313px;
+  height: 70px;
+  left: 500px;
+  top: 650px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 70px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 70px;
+  text-align: center;
+}
 
-    color: white;
+.titulo p {
+  position: absolute;
+  width: 900px;
+  height: 70px;
+  left: 195px;
+  top: 750px;
 
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.box_flutu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  position: absolute;
+  width: 1050px;
+  height: 406px;
+  left: 100px;
+  top: 900px;
+}
+.box_0 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 32px;
+  gap: 32px;
+
+  width: 390px;
+  height: 250px;
+
+  background: #fcfcfc;
+  box-shadow: 4px 14px 34px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.box_0 h2 {
+  position: absolute;
+  width: 263px;
+  height: 27px;
+  left: 32px;
+  top: 10px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 60px;
+  /* or 250% */
+
+  display: flex;
+  align-items: center;
+}
+.box_0 p {
+  position: absolute;
+  width: 300px;
+  height: 164px;
+  left: 32px;
+  top: 50px;
+  text-align: left;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
 }

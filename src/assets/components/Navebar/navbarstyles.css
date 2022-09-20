@@ -1,90 +1,81 @@
 :root {
-    --primary: #656565;
-    --secundary: #ffffff;
-    --gep: 1.5rem;
-
+  --primary: #656565;
+  --secundary: #ffffff;
+  --gep: 1.5rem;
 }
 
 .whitebg {
-    position: absolute;
-    width: 1728px;
-    height: 939px;
-    left: -2px;
-    top: -5px;
-
-    
+  position: absolute;
+  width: 1728px;
+  height: 640px;
+  left: -2px;
+  top: -5px;
 }
 
 .menu {
-    position: fixed;
-    width: 100%;
-    background: var(--primary);
-    top: 0;
-    left: 0;
-    right: 0;
+  position: absolute;
+  width: 100%;
+  background: var(--primary);
 }
 
 .main_content {
-    max-width: 1200px;
-    margin: 0;
-    margin: auto;
-    padding: var(--gep);
-
+  max-width: 1200px;
+  margin: 0;
+  margin: auto;
+  padding: var(--gep);
 }
 
 .menu_content {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 0;
-    padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .menu h1 {
-    font-size: 1.5rem;
-    color: black;
-    padding: 20px;
+  font-size: 1.5rem;
+  color: black;
+  padding: 20px;
 }
 
 .menu ul {
-    list-style: none;
-    display: flex;
-
+  list-style: none;
+  display: flex;
 }
 
 .menu ul li {
-    display: block;
-    padding: 20px;
-    font-size: 1.3rem;
-    position: relative;
-    color: white;
+  display: block;
+  padding: 20px;
+  font-size: 1.3rem;
+  position: relative;
+  color: white;
 }
 
 .menu ul li::after {
-    content: '';
-    position: absolute;
-    bottom: 0.6rem;
-    left: 29%;
-    width: 0;
-    height: 0.2rem;
-    background: burlywood;
-    transition: all 300ms ease-in-out;
-
+  content: "";
+  position: absolute;
+  bottom: 0.6rem;
+  left: 29%;
+  width: 0;
+  height: 0.2rem;
+  background: burlywood;
+  transition: all 300ms ease-in-out;
 }
 
 .menu ul li:hover::after {
-    width: 50px;
-    left: 25%;
+  width: 50px;
+  left: 25%;
 }
 
 .menu h3 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
 
-    position: absolute;
-    width: 1044px;
-    height: 367px;
-    left: 174px;
-    top: 286px;
+  position: absolute;
+  width: 1044px;
+  height: 367px;
+  left: 174px;
+  top: 286px;
 }
