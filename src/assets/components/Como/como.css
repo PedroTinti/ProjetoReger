@@ -1,0 +1,36 @@
+.body_como {
+  position: absolute;
+  width: 1310px;
+  height: 1552px;
+  left: 0px;
+  top: 1400px;
+
+  background: #d9d9d9;
+}
+
+.body_como h1 {
+  position: absolute;
+  width: 359px;
+  height: 70px;
+  left: 500px;
+  top: 50px;
+  text-align: center;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  /* identical to box height, or 146% */
+
+  color: #000000;
+}
+
+.video_como {
+  position: absolute;
+  width: 990px;
+  height: 495px;
+  left: 180px;
+  top: 170px;
+  align-items: center;
+}
