@@ -16,6 +16,19 @@ function Como() {
           allowFullScreen
         ></iframe>
       </div>
+      <div className="box_flex_como">
+        <div className="box_cima">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatibus consectetur adipisci amet rem quo omnis atque accusantium aut culpa deleniti, voluptates maiores reprehenderit tempore minus facere iusto, pariatur iure?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatibus consectetur adipisci amet rem quo omnis atque accusantium aut culpa deleniti, voluptates maiores reprehenderit tempore minus facere iusto, pariatur iure?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatibus consectetur adipisci amet rem quo omnis atque accusantium aut culpa deleniti, voluptates maiores reprehenderit tempore minus facere iusto, pariatur iure?</p>
+        </div>
+        <div className="box_baixo">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam aspernatur, veritatis dolores sed dolore eos ad voluptatum, magni nihil praesentium maxime unde ipsa animi illo voluptas exercitationem. Rerum, nobis.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam aspernatur, veritatis dolores sed dolore eos ad voluptatum, magni nihil praesentium maxime unde ipsa animi illo voluptas exercitationem. Rerum, nobis.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam aspernatur, veritatis dolores sed dolore eos ad voluptatum, magni nihil praesentium maxime unde ipsa animi illo voluptas exercitationem. Rerum, nobis.</p>
+        </div>
+
+      </div>
     </section>
   );
 }

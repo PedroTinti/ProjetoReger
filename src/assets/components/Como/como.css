@@ -1,36 +1,120 @@
-.body_como {
-  position: absolute;
-  width: 1310px;
-  height: 1552px;
-  left: 0px;
-  top: 1400px;
+.body_como{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 0px;
+padding-left: 100px;
+gap: 80px;
 
-  background: #d9d9d9;
+width: 1087px;
+height: 1525px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
 }
 
-.body_como h1 {
-  position: absolute;
-  width: 359px;
-  height: 70px;
-  left: 500px;
-  top: 50px;
-  text-align: center;
 
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 70px;
-  /* identical to box height, or 146% */
 
-  color: #000000;
+.body_como h1{
+width: 404px;
+height: 70px;
+padding-top: 750px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 70px;
+/* identical to box height, or 135% */
+
+
+color: #2C360B;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
-.video_como {
-  position: absolute;
-  width: 990px;
+.video_como{
+  width: 1086px;
   height: 495px;
-  left: 180px;
-  top: 170px;
+  
+  border-radius: 6px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+
+.box_flex_como{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  
+  width: 1087px;
+  height: 800px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.box_cima{
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  padding: 0px;
+  gap: 64px;
+  
+  width: 1087px;
+  height: 250px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.box_cima p{
+  color: black;
+}
+
+.box_baixo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 64px;
+  
+  width: 1087px;
+  height: 376px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.box_baixo p{
+  color: black;
 }

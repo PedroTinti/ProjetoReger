@@ -1,16 +1,37 @@
+.body_projeto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  
+  width: 1234px;
+  height: 629px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+
 .body_projeto h1 {
   position: absolute;
   width: 313px;
   height: 70px;
   left: 500px;
-  top: 650px;
+  top: 690px;
 
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 40px;
   line-height: 70px;
   text-align: center;
+  color: #2C360B;
 }
 
 .titulo p {
@@ -18,7 +39,8 @@
   width: 900px;
   height: 70px;
   left: 195px;
-  top: 740px;
+  top: 775px;
+  color: #000000;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -37,13 +59,31 @@
   position: absolute;
   width: 1050px;
   height: 406px;
-  left: 30px;
-  top: 840px;
+  left: 60px;
+  top: 890px;
 }
 
 .box_start p {
+  
+  width: 326px;
+  height: 164px;
+  left: 32px;
+  top: 218px;
+  
+  font-family: 'Lato';
   text-align: left;
-}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  
+  
+  color: #484848;
+    
+  }
+
+
 
 .box_zero {
   display: flex;
@@ -66,6 +106,7 @@
   flex-grow: 0;
 }
 
+
 .box_um {
   display: flex;
   flex-direction: column;
@@ -87,6 +128,8 @@
   flex-grow: 0;
 }
 
+
+
 .box_dois {
   display: flex;
   flex-direction: column;
@@ -107,3 +150,6 @@
   order: 2;
   flex-grow: 0;
 }
+
+
+

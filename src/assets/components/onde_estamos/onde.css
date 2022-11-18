@@ -1,0 +1,38 @@
+.body_onde{
+width: 1007px;
+height: 528px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.titulo_onde h1{
+position: absolute;
+width: 381px;
+height: 70px;
+left: 100px;
+top: 2700px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 70px;
+/* identical to box height, or 140% */
+
+
+color: #FFF8F8;
+
+
+}
+
+.maps{
+padding-left: 50%;
+padding-top: 50%;
+
+}
