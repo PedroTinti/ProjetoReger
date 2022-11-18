@@ -6,7 +6,7 @@
   gap: 24px;
   
   width: 1234px;
-  height: 629px;
+  height: 550px;
   
   
   /* Inside auto layout */
@@ -23,7 +23,7 @@
   width: 313px;
   height: 70px;
   left: 500px;
-  top: 690px;
+  top: 670px;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -39,7 +39,7 @@
   width: 900px;
   height: 70px;
   left: 195px;
-  top: 775px;
+  top: 750px;
   color: #000000;
 
   font-family: "Montserrat";
@@ -60,7 +60,7 @@
   width: 1050px;
   height: 406px;
   left: 60px;
-  top: 890px;
+  top: 850px;
 }
 
 .box_start p {
