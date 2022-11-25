@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   padding: 0px;
   gap: 24px;
   
@@ -20,12 +21,11 @@
 
 
 .body_projeto h1 {
-  position: absolute;
-  max-width: 313px;
+  position: flex;
   min-width: 313px;
   height: 70px;
   left: 500px;
-  top: 670px;
+  margin-top: 640px;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -37,9 +37,9 @@
 }
 
 .titulo p {
-  position: absolute;
+  display: flex;
   max-width: 900px;
-  min-width: 590px;
+  min-width: 560px;
   height: 70px;
   left: 195px;
   top: 750px;
@@ -59,8 +59,7 @@
   padding: 0px;
   gap: 32px;
 
-  position: absolute;
-  max-width: 1050px;
+  position: flex;
   min-width: 590px;
   height: 406px;
   left: 40px;
@@ -69,7 +68,8 @@
 
 .box_start p {
   
-  width: 326px;
+  
+  min-width: 326px;
   height: 164px;
   left: 32px;
   top: 218px;
@@ -96,7 +96,8 @@
   padding: 24px 32px;
   gap: 32px;
 
-  width: 390px;
+  max-width: 390px;
+  min-width: 390px;
   height: 406px;
 
   background: #fcfcfc;
@@ -118,7 +119,8 @@
   padding: 24px 32px;
   gap: 32px;
 
-  width: 390px;
+  max-width: 390px;
+  min-width: 390px;
   height: 406px;
 
   background: #fcfcfc;
@@ -141,7 +143,8 @@
   padding: 24px 32px;
   gap: 32px;
 
-  width: 390px;
+  max-width: 390px;
+  min-width: 390px;
   height: 406px;
 
   background: #fcfcfc;

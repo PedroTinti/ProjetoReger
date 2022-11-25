@@ -6,7 +6,8 @@ padding-top: 0px;
 padding-left: 100px;
 gap: 80px;
 
-width: 1087px;
+max-width: 1087px;
+min-width: 560px;
 height: 1525px;
 
 
@@ -20,7 +21,8 @@ flex-grow: 0;
 
 
 .body_como h1{
-width: 404px;
+max-width: 404px;
+min-width: 404px;
 height: 70px;
 padding-top: 750px;
 
@@ -44,7 +46,8 @@ flex-grow: 0;
 }
 
 .video_como{
-  width: 1086px;
+  max-width: 1086px;
+  min-width: 560px;
   height: 495px;
   
   border-radius: 6px;
@@ -65,7 +68,8 @@ flex-grow: 0;
   padding: 0px;
   gap: 48px;
   
-  width: 1087px;
+  
+  min-width: 560px;
   height: 800px;
   
   
