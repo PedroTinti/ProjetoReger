@@ -17,7 +17,8 @@
 }
 
 .intro h2 {
-  width: 850px;
+  max-width: 850px;
+  min-width: 568px;
   height: 170px;
   text-align: left;
 
@@ -59,7 +60,8 @@
   border: none;
   cursor: pointer;
   position: absolute;
-  width: 250px;
+  max-width: 250px;
+  min-width: 250px;
   height: 50px;
   left: -2px;
   background: #F7EAC6;

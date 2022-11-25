@@ -5,7 +5,8 @@
   padding: 0px;
   gap: 24px;
   
-  width: 1234px;
+  max-width: 1234px;
+  min-width: 590px;
   height: 550px;
   
   
@@ -20,7 +21,8 @@
 
 .body_projeto h1 {
   position: absolute;
-  width: 313px;
+  max-width: 313px;
+  min-width: 313px;
   height: 70px;
   left: 500px;
   top: 670px;
@@ -36,7 +38,8 @@
 
 .titulo p {
   position: absolute;
-  width: 900px;
+  max-width: 900px;
+  min-width: 590px;
   height: 70px;
   left: 195px;
   top: 750px;
@@ -57,9 +60,10 @@
   gap: 32px;
 
   position: absolute;
-  width: 1050px;
+  max-width: 1050px;
+  min-width: 590px;
   height: 406px;
-  left: 60px;
+  left: 40px;
   top: 850px;
 }
 

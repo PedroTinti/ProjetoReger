@@ -18,14 +18,14 @@ function Como() {
       </div>
       <div className="box_flex_como">
         <div className="box_cima">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatibus consectetur adipisci amet rem quo omnis atque accusantium aut culpa deleniti, voluptates maiores reprehenderit tempore minus facere iusto, pariatur iure?</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatibus consectetur adipisci amet rem quo omnis atque accusantium aut culpa deleniti, voluptates maiores reprehenderit tempore minus facere iusto, pariatur iure?</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatibus consectetur adipisci amet rem quo omnis atque accusantium aut culpa deleniti, voluptates maiores reprehenderit tempore minus facere iusto, pariatur iure?</p>
+          <p>O Projeto de Extensão Redução da Geração de Resíduos (REGER) do UNISAGRADO é desenvolvido desde o ano de 2016, com o objetivo de concretizar o tema sustentabilidade no campus e orientar a todos os que o frequentam sobre a destinação correta dos resíduos</p>
+          <p>Capacitação dos Funcionários para a correta destinação do resíduos; Elaboração de vídeo com orientações sobre o correto descarte de resíduos; Reorganização do setor de descarte de resíduos recicláveis e obtenção de uma máquina que fragmenta papéis, plásticos e CDs.</p>
+          <p>Por meio do projeto, que ocorre durante todos os semestres, busca-se adotar medidas, que foram previamentes estudadas, e que possibilitam a redução do consumo ou a mudança de hábitos que afetam diretamente a quantidade de resíduos produzidos no campus.</p>
         </div>
         <div className="box_baixo">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam aspernatur, veritatis dolores sed dolore eos ad voluptatum, magni nihil praesentium maxime unde ipsa animi illo voluptas exercitationem. Rerum, nobis.</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam aspernatur, veritatis dolores sed dolore eos ad voluptatum, magni nihil praesentium maxime unde ipsa animi illo voluptas exercitationem. Rerum, nobis.</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam aspernatur, veritatis dolores sed dolore eos ad voluptatum, magni nihil praesentium maxime unde ipsa animi illo voluptas exercitationem. Rerum, nobis.</p>
+          <p>“Atualmente o Reger propõe, através de projeto de extensão, semestralmente, capacitações para a continuidade das ações de correto gerenciamento, separação e destinação dos resíduos, bem como elabora e implementa propostas de sustentabilidade"</p>
+          <p>Em seu início, a implementação do estudo foi realizada em duas fases. A primeira etapa, abrangeu o diagnóstico dos resíduos gerados nos setores (químicos, biológicos, de saúde, orgânicos e recicláveis) e foi realizada pelos estudantes do respectivo projeto de extensão.</p>
+          <p>Em média, os rejeitos gerados no campus foram diminuidos em mais de 50%.  A Prof. Dra. Beatriz Antoniassi conta que, atualmente, através do Reger, foi possível alcançar o objetivo de implementar a cultura de sustentabilidade na IES</p>
         </div>
 
       </div>
